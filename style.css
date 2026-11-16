@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.5;
+}
+
+/* HEADER */
+
+.hero {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.search-container {
+    max-width: 500px;
+    margin: 20px auto 0;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* MENU */
+
+.menu-fixo {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: white;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.menu-fixo a {
+    text-decoration: none;
+    color: #0f172a;
+    background: #f1f5f9;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.menu-fixo a:hover {
+    background: #dbeafe;
+}
+
+/* AÇÕES */
+
+.acoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 25px 15px;
+    flex-wrap: wrap;
+}
+
+.acoes button {
+    border: none;
+    cursor: pointer;
+    background: #2563eb;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.acoes button:hover {
+    opacity: 0.9;
+}
+
+/* SEÇÕES */
+
+.materia {
+    padding: 40px 20px;
+}
+
+.materia h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+/* CORES DAS DISCIPLINAS */
+
+.anatomia h2 {
+    color: #2563EB;
+}
+
+.morfologia h2 {
+    color: #7C3AED;
+}
+
+.materiais h2 {
+    color: #374151;
+}
+
+.histologia h2 {
+    color: #16A34A;
+}
+
+.fisiologia h2 {
+    color: #DC2626;
+}
+
+.bioquimica h2 {
+    color: #EA580C;
+}
+
+.saude h2 {
+    color: #0D9488;
+}
+
+/* GRID DE FLASHCARDS */
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+
+.flashcard {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    min-height: 180px;
+    position: relative;
+
+    box-shadow:
+        0 4px 8px rgba(0,0,0,0.05),
+        0 8px 20px rgba(0,0,0,0.06);
+
+    transition: transform .3s;
+}
+
+.flashcard:hover {
+    transform: translateY(-5px);
+}
+
+.flashcard h3 {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.flashcard p {
+    margin-top: 10px;
+}
+
+/* FAVORITO */
+
+.favorite-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    border: none;
+    background: transparent;
+
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+/* BOTÃO RESPOSTA */
+
+.answer-btn {
+    margin-top: 15px;
+
+    border: none;
+    background: #2563eb;
+    color: white;
+
+    padding: 10px 16px;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.answer-btn:hover {
+    opacity: 0.9;
+}
+
+/* FAVORITOS */
+
+#semFavoritos {
+    text-align: center;
+    margin-top: 20px;
+    color: #64748b;
+}
+
+/* BOTÃO TOPO */
+
+#btnTopo {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    border: none;
+
+    background: #2563eb;
+    color: white;
+
+    cursor: pointer;
+    font-size: 18px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #64748b;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .materia h2 {
+        font-size: 1.4rem;
+    }
+
+    .menu-fixo {
+        justify-content: center;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (min-width: 1025px) {
+
+    .cards-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.quiz-modal{
+
+    display:none;
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.7);
+
+    justify-content:center;
+    align-items:center;
+
+    z-index:9999;
+}
+
+.quiz-content{
+
+    background:white;
+
+    width:90%;
+    max-width:700px;
+
+    padding:30px;
+
+    border-radius:16px;
+
+    text-align:center;
+}
+
+.quiz-content h2{
+
+    margin-bottom:15px;
+}
+
+.quiz-option{
+
+    width:100%;
+
+    display:block;
+
+    margin:10px 0;
+
+    padding:12px;
+
+    border:none;
+
+    background:#f1f5f9;
+
+    border-radius:10px;
+
+    cursor:pointer;
+}
+
+.quiz-option:hover{
+
+    background:#dbeafe;
+}
+
+.quiz-buttons{
+
+    margin-top:20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+}
+
+.quiz-buttons button{
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    background:#2563eb;
+
+    color:white;
+}
+
+.correct{
+
+    background:#22c55e !important;
+
+    color:white;
+}
+
+.wrong{
+
+    background:#ef4444 !important;
+
+    color:white;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashCards Odontologia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    ...todo o conteúdo do seu site...
+
+    <div id="quizModal" class="quiz-modal">
+
+        <div class="quiz-content">
+
+            <h2>📝 Simulado</h2>
+
+            <div id="quizInfo"></div>
+
+            <h3 id="quizQuestion"></h3>
+
+            <div id="quizOptions"></div>
+
+            <div class="quiz-buttons">
+
+                <button id="nextQuestionBtn">
+                    Próxima
+                </button>
+
+                <button id="closeQuizBtn">
+                    Fechar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <header class="hero">
+        <h1>🦷 FlashCards Odontologia</h1>
+        <p>Espero que possa ajudar!</p>
+
+        <div class="search-container">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="🔍 Buscar flashcard..."
+            >
+        </div>
+    </header>
+
+    <nav class="menu-fixo">
+        <a href="#anatomia">📘 Anatomia (15)</a>
+        <a href="#morfologia">🦷 Morfologia (15)</a>
+        <a href="#materiais">⚙️ Materiais (15)</a>
+        <a href="#histologia">🔬 Histologia (15)</a>
+        <a href="#fisiologia">❤️ Fisiologia (15)</a>
+        <a href="#bioquimica">🧪 Bioquímica (10)</a>
+        <a href="#saude">🌎 Saúde Coletiva (10)</a>
+        <a href="#favoritos">⭐ Favoritos</a>
+    </nav>
+
+    <section class="acoes">
+        <button id="randomBtn">🎲 Flashcard Aleatório</button>
+        <button id="quizBtn">📝 Simulado Rápido</button>
+    </section>
+
+    <main>
+
+        <!-- ANATOMIA -->
+        <section id="anatomia" class="materia anatomia">
+            <h2>📘 Anatomia Humana</h2>
+
+            <div class="cards-container" id="anatomia-cards">
+                <!-- Renderizado pelo JS -->
+            </div>
+        </section>
+
+        <!-- MORFOLOGIA -->
+        <section id="morfologia" class="materia morfologia">
+            <h2>🦷 Morfologia Dental</h2>
+
+            <div class="cards-container" id="morfologia-cards">
+            </div>
+        </section>
+
+        <!-- MATERIAIS -->
+        <section id="materiais" class="materia materiais">
+            <h2>⚙️ Materiais Dentários</h2>
+
+            <div class="cards-container" id="materiais-cards">
+            </div>
+        </section>
+
+        <!-- HISTOLOGIA -->
+        <section id="histologia" class="materia histologia">
+            <h2>🔬 Histologia e Embriologia Oral</h2>
+
+            <div class="cards-container" id="histologia-cards">
+            </div>
+        </section>
+
+        <!-- FISIOLOGIA -->
+        <section id="fisiologia" class="materia fisiologia">
+            <h2>❤️ Fisiologia Humana</h2>
+
+            <div class="cards-container" id="fisiologia-cards">
+            </div>
+        </section>
+
+        <!-- BIOQUÍMICA -->
+        <section id="bioquimica" class="materia bioquimica">
+            <h2>🧪 Bioquímica</h2>
+
+            <div class="cards-container" id="bioquimica-cards">
+            </div>
+        </section>
+
+        <!-- SAÚDE COLETIVA -->
+        <section id="saude" class="materia saude">
+            <h2>🌎 Saúde Coletiva</h2>
+
+            <div class="cards-container" id="saude-cards">
+            </div>
+        </section>
+
+        <!-- FAVORITOS -->
+        <section id="favoritos" class="materia favoritos">
+            <h2>⭐ Meus Favoritos</h2>
+
+            <div class="cards-container" id="favoritos-cards">
+            </div>
+
+            <p id="semFavoritos">
+                Nenhum flashcard favoritado.
+            </p>
+        </section>
+
+    </main>
+
+    <button id="btnTopo">
+        ⬆
+    </button>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
