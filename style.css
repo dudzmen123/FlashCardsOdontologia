@@ -10,9 +10,13 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f8fafc;
+    background-color: #0f172a;
     color: #1e293b;
     line-height: 1.5;
+
+    transition:
+        background-color .7s ease,
+        background .7s ease;
 }
 
 /* HEADER */
@@ -103,43 +107,83 @@ body {
 
 /* SEÇÕES */
 
-.materia {
-    padding: 40px 20px;
+.materia{
+
+ margin: 25px;
+
+ border-radius: 20px;
+
+ padding: 40px;
+
+ box-shadow:
+ 0 6px 20px rgba(0,0,0,.08);
+
 }
 
-.materia h2 {
-    margin-bottom: 20px;
-    font-size: 1.8rem;
+.materia h2{
+
+ font-size:1.8rem;
+
+ font-weight:700;
+
 }
 
 /* CORES DAS DISCIPLINAS */
 
-.anatomia h2 {
-    color: #2563EB;
+.anatomia{
+
+ background:#eaf3ff;
+ border-top:8px solid #2563eb;
+
 }
 
-.morfologia h2 {
-    color: #7C3AED;
+.morfologia{
+
+ background:#f3ebff;
+ border-top:8px solid #7c3aed;
+
 }
 
-.materiais h2 {
-    color: #374151;
+.materiais{
+
+ background:#f3f4f6;
+ border-top:8px solid #4b5563;
+
 }
 
-.histologia h2 {
-    color: #16A34A;
+.histologia{
+
+ background:#ebfff1;
+ border-top:8px solid #16a34a;
+
 }
 
-.fisiologia h2 {
-    color: #DC2626;
+.fisiologia{
+
+ background:#fff0f0;
+ border-top:8px solid #dc2626;
+
 }
 
-.bioquimica h2 {
-    color: #EA580C;
+.bioquimica{
+
+ background:#fff5eb;
+ border-top:8px solid #ea580c;
+
 }
 
-.saude h2 {
-    color: #0D9488;
+.saude{
+
+ background:#ebfffb;
+ border-top:8px solid #0d9488;
+
+}
+
+.favoritos{
+
+ background:#fffbea;
+ border-top:8px solid #eab308;
+
 }
 
 /* GRID DE FLASHCARDS */
@@ -153,17 +197,28 @@ body {
 /* CARD */
 
 .flashcard {
+
     background: white;
+
     border-radius: 16px;
+
     padding: 20px;
+
     min-height: 180px;
+
     position: relative;
+
+    border: 2px solid rgba(255,255,255,.15);
+
+    backdrop-filter: blur(4px);
 
     box-shadow:
         0 4px 8px rgba(0,0,0,0.05),
         0 8px 20px rgba(0,0,0,0.06);
 
-    transition: transform .3s;
+    transition:
+        transform .3s,
+        box-shadow .3s;
 }
 
 .flashcard:hover {
@@ -171,8 +226,14 @@ body {
 }
 
 .flashcard h3 {
+
     margin-bottom: 15px;
+
+    padding-right: 50px;
+
     font-size: 1rem;
+
+    line-height: 1.5;
 }
 
 .flashcard p {
@@ -389,4 +450,18 @@ footer {
     background:#ef4444 !important;
 
     color:white;
+}
+
+@media (max-width: 768px){
+
+    .materia{
+
+        margin: 12px;
+
+        padding: 20px;
+
+        border-left-width: 5px;
+
+    }
+
 }
