@@ -116,106 +116,141 @@ const flashcards = [
     {
     id: 16,
     materia: "Morfologia",
-    pergunta: "Qual é a principal função dos incisivos?",
-    resposta: "Cortar os alimentos."
+    pergunta: "Quais são as principais características do esmalte dentário?",
+    resposta: "É o tecido mais duro do corpo, transparente, sem células e sem vasos sanguíneos."
 },
 
 {
     id: 17,
     materia: "Morfologia",
-    pergunta: "Qual é a principal função dos caninos?",
-    resposta: "Rasgar os alimentos."
+    pergunta: "Qual é a composição do esmalte dentário?",
+    resposta: "97% de minerais e 3% de matéria orgânica e água."
 },
 
 {
     id: 18,
     materia: "Morfologia",
-    pergunta: "Qual é a principal função dos pré-molares?",
-    resposta: "Triturar os alimentos."
+    pergunta: "O que é o Processo de Tomes?",
+    resposta: "É uma projeção dos ameloblastos que ajuda na formação do esmalte."
 },
 
 {
     id: 19,
     materia: "Morfologia",
-    pergunta: "Qual é a principal função dos molares?",
-    resposta: "Trituração intensa dos alimentos."
+    pergunta: "O que são os prismas de esmalte e o esmalte nodoso?",
+    resposta: "Prismas são estruturas que formam o esmalte. O esmalte nodoso ocorre quando eles se cruzam irregularmente."
 },
 
 {
     id: 20,
     materia: "Morfologia",
-    pergunta: "Qual dente permanente possui normalmente a raiz mais longa?",
-    resposta: "Canino superior."
+    pergunta: "O que são as estrias de Retzius e as periquimácias?",
+    resposta: "São marcas de crescimento do esmalte. As periquimácias aparecem como pequenas ondulações na superfície."
 },
 
 {
     id: 21,
     materia: "Morfologia",
-    pergunta: "O que é uma cúspide?",
-    resposta: "Elevação anatômica presente na superfície do dente."
+    pergunta: "Qual é a diferença entre tufos, lamelas e fusos?",
+    resposta: "Tufos são pequenas áreas menos mineralizadas; lamelas são fissuras alongadas; fusos são prolongamentos dos túbulos dentinários."
 },
 
 {
     id: 22,
     materia: "Morfologia",
-    pergunta: "O que é um sulco dental?",
-    resposta: "Depressão linear presente na superfície do dente."
+    pergunta: "Como se origina a polpa dentária?",
+    resposta: "Origina-se da papila dentária durante a fase de campânula."
 },
 
 {
     id: 23,
     materia: "Morfologia",
-    pergunta: "O que é uma crista marginal?",
-    resposta: "Elevação linear localizada nas bordas da superfície oclusal ou lingual."
+    pergunta: "Quais são os principais componentes da polpa?",
+    resposta: "Células, fibras, vasos sanguíneos, vasos linfáticos e nervos."
 },
 
 {
     id: 24,
     materia: "Morfologia",
-    pergunta: "Quantas raízes possui normalmente o primeiro molar superior?",
-    resposta: "Três raízes."
+    pergunta: "Como funciona a Teoria Hidrodinâmica de Brännström",
+    resposta: "O movimento do líquido dentro dos túbulos dentinários estimula os nervos e provoca dor."
 },
 
 {
     id: 25,
     materia: "Morfologia",
-    pergunta: "Quantas raízes possui normalmente o primeiro molar inferior?",
-    resposta: "Duas raízes."
+    pergunta: "Quais são as principais características da dentina?",
+    resposta: "É um tecido mineralizado, branco-amarelado, sem células e sem vasos sanguíneos."
 },
 
 {
     id: 26,
     materia: "Morfologia",
-    pergunta: "Qual face do dente está voltada para os lábios ou bochechas?",
-    resposta: "Face vestibular."
+    pergunta: "Qual é a composição da dentina?",
+    resposta: "70% de minerais e 30% de matéria orgânica e água."
 },
 
 {
     id: 27,
     materia: "Morfologia",
-    pergunta: "Qual face do dente está voltada para a língua?",
-    resposta: "Face lingual."
+    pergunta: "O que são os túbulos dentinários?",
+    resposta: "São pequenos canais presentes na dentina, formados pelos prolongamentos dos odontoblastos."
 },
 
 {
     id: 28,
     materia: "Morfologia",
-    pergunta: "O que é a câmara pulpar?",
-    resposta: "Espaço interno do dente que abriga a polpa."
+    pergunta: "O que são os canalículos dentinários?",
+    resposta: "São pequenas ramificações dos prolongamentos dos odontoblastos."
 },
 
 {
     id: 29,
     materia: "Morfologia",
-    pergunta: "Qual dente apresenta a cúspide mais desenvolvida da dentição humana?",
-    resposta: "Canino."
+    pergunta: "O que é a dentina circumpulpar?",
+    resposta: "É a dentina formada após a dentina do manto, próxima à polpa."
 },
 
 {
     id: 30,
     materia: "Morfologia",
-    pergunta: "Qual grupo dentário possui função predominante de trituração?",
-    resposta: "Molares."
+    pergunta: "Qual é a diferença entre dentina primária e secundária?",
+    resposta: "A primária se forma até o fechamento da raiz. A secundária se forma depois, lentamente."
+},
+
+{
+    id: 31,
+    materia: "Morfologia",
+    pergunta: "O que é a dentina terciária?",
+    resposta: "É uma dentina formada para proteger a polpa contra agressões, como cáries e desgaste."
+},
+
+{
+    id: 32,
+    materia: "Morfologia",
+    pergunta: "Qual é a diferença entre dentina peritubular e intertubular?",
+    resposta: "A peritubular fica ao redor dos túbulos; a intertubular fica entre eles."
+},
+
+{
+    id: 33,
+    materia: "Morfologia",
+    pergunta: "O que é a dentina esclerótica?",
+    resposta: "É a dentina em que os túbulos ficam estreitos ou bloqueados."
+},
+
+{
+    id: 34,
+    materia: "Morfologia",
+    pergunta: "O que é a dentina interglobular?",
+    resposta: "São regiões da dentina que apresentam pouca mineralização."
+},
+
+{
+    id: 35,
+    materia: "Morfologia",
+    pergunta: "O que são as linhas de Von Ebner?",
+    resposta: "São linhas que indicam períodos de pausa na formação da dentina."
 },
 
     // =====================
@@ -223,105 +258,105 @@ const flashcards = [
     // =====================
 
 {
-    id: 31,
+    id: 36,
     materia: "Materiais",
     pergunta: "O que é uma resina composta?",
     resposta: "Material restaurador estético utilizado em restaurações diretas."
 },
 
 {
-    id: 32,
+    id: 37,
     materia: "Materiais",
     pergunta: "Qual é a principal vantagem da resina composta?",
     resposta: "Apresentar estética semelhante à estrutura dental."
 },
 
 {
-    id: 33,
+    id: 38,
     materia: "Materiais",
     pergunta: "O que é polimerização?",
     resposta: "Processo de endurecimento da resina por reação química."
 },
 
 {
-    id: 34,
+    id: 39,
     materia: "Materiais",
     pergunta: "O que é contração de polimerização?",
     resposta: "Redução volumétrica que ocorre durante a cura da resina."
 },
 
 {
-    id: 35,
+    id: 40,
     materia: "Materiais",
     pergunta: "O que é adesão em odontologia?",
     resposta: "União entre material restaurador e estrutura dental."
 },
 
 {
-    id: 36,
+    id: 41,
     materia: "Materiais",
     pergunta: "Qual ácido é utilizado para condicionamento do esmalte?",
     resposta: "Ácido fosfórico."
 },
 
 {
-    id: 37,
+    id: 42,
     materia: "Materiais",
     pergunta: "O que significa presa de um material?",
     resposta: "Processo de endurecimento do material."
 },
 
 {
-    id: 38,
+    id: 43,
     materia: "Materiais",
     pergunta: "O que é biocompatibilidade?",
     resposta: "Capacidade de um material interagir com os tecidos sem causar danos."
 },
 
 {
-    id: 39,
+    id: 44,
     materia: "Materiais",
     pergunta: "Qual material restaurador libera flúor continuamente?",
     resposta: "Cimento de ionômero de vidro."
 },
 
 {
-    id: 40,
+    id: 45,
     materia: "Materiais",
     pergunta: "Qual material foi amplamente utilizado em restaurações posteriores durante décadas?",
     resposta: "Amálgama."
 },
 
 {
-    id: 41,
+    id: 46,
     materia: "Materiais",
     pergunta: "O que é moldagem?",
     resposta: "Reprodução negativa das estruturas bucais."
 },
 
 {
-    id: 42,
+    id: 47,
     materia: "Materiais",
     pergunta: "O que é um modelo de gesso?",
     resposta: "Reprodução positiva obtida a partir da moldagem."
 },
 
 {
-    id: 43,
+    id: 48,
     materia: "Materiais",
     pergunta: "Qual silicone apresenta maior estabilidade dimensional?",
     resposta: "Silicone de adição."
 },
 
 {
-    id: 44,
+    id: 49,
     materia: "Materiais",
     pergunta: "O que mede a dureza de um material?",
     resposta: "A resistência à deformação superficial."
 },
 
 {
-    id: 45,
+    id: 50,
     materia: "Materiais",
     pergunta: "Qual propriedade permite que um material suporte forças mastigatórias?",
     resposta: "Resistência mecânica."
@@ -332,105 +367,105 @@ const flashcards = [
     // =====================
 
 {
-    id: 46,
+    id: 51,
     materia: "Histologia",
     pergunta: "Qual célula produz o esmalte dentário?",
     resposta: "Ameloblasto."
 },
 
 {
-    id: 47,
+    id: 52,
     materia: "Histologia",
     pergunta: "Qual célula produz a dentina?",
     resposta: "Odontoblasto."
 },
 
 {
-    id: 48,
+    id: 53,
     materia: "Histologia",
     pergunta: "Qual célula forma o cemento?",
     resposta: "Cementoblasto."
 },
 
 {
-    id: 49,
+    id: 54,
     materia: "Histologia",
     pergunta: "Qual é o tecido mais mineralizado do corpo humano?",
     resposta: "Esmalte."
 },
 
 {
-    id: 50,
+    id: 55,
     materia: "Histologia",
     pergunta: "Qual tecido constitui a maior parte do dente?",
     resposta: "Dentina."
 },
 
 {
-    id: 51,
+    id: 56,
     materia: "Histologia",
     pergunta: "O esmalte possui vascularização?",
     resposta: "Não."
 },
 
 {
-    id: 52,
+    id: 57,
     materia: "Histologia",
     pergunta: "O esmalte possui capacidade regenerativa?",
     resposta: "Não."
 },
 
 {
-    id: 53,
+    id: 58,
     materia: "Histologia",
     pergunta: "O que é a polpa dentária?",
     resposta: "Tecido conjuntivo localizado no interior do dente."
 },
 
 {
-    id: 54,
+    id: 59,
     materia: "Histologia",
     pergunta: "Qual tecido reveste a raiz dentária?",
     resposta: "Cemento."
 },
 
 {
-    id: 55,
+    id: 60,
     materia: "Histologia",
     pergunta: "O que é odontogênese?",
     resposta: "Processo de formação dos dentes."
 },
 
 {
-    id: 56,
+    id: 61,
     materia: "Histologia",
     pergunta: "Qual estrutura inicia o desenvolvimento dental?",
     resposta: "Lâmina dentária."
 },
 
 {
-    id: 57,
+    id: 62,
     materia: "Histologia",
     pergunta: "Qual estrutura liga o dente ao osso alveolar?",
     resposta: "Ligamento periodontal."
 },
 
 {
-    id: 58,
+    id: 63,
     materia: "Histologia",
     pergunta: "Em qual estágio se forma o órgão do esmalte?",
     resposta: "Estágio de capuz."
 },
 
 {
-    id: 59,
+    id: 64,
     materia: "Histologia",
     pergunta: "Qual proteína predomina na matriz da dentina?",
     resposta: "Colágeno tipo I."
 },
 
 {
-    id: 60,
+    id: 65,
     materia: "Histologia",
     pergunta: "Qual tecido forma o alvéolo dentário?",
     resposta: "Osso alveolar."
@@ -441,105 +476,105 @@ const flashcards = [
     // =====================
 
 {
-    id: 61,
+    id: 66,
     materia: "Fisiologia",
     pergunta: "O que é homeostase?",
     resposta: "Manutenção do equilíbrio interno do organismo."
 },
 
 {
-    id: 62,
+    id: 67,
     materia: "Fisiologia",
     pergunta: "Qual órgão bombeia sangue para todo o corpo?",
     resposta: "Coração."
 },
 
 {
-    id: 63,
+    id: 68,
     materia: "Fisiologia",
     pergunta: "Quantas câmaras possui o coração humano?",
     resposta: "Quatro."
 },
 
 {
-    id: 64,
+    id: 69,
     materia: "Fisiologia",
     pergunta: "Onde ocorre a troca gasosa pulmonar?",
     resposta: "Nos alvéolos."
 },
 
 {
-    id: 65,
+    id: 70,
     materia: "Fisiologia",
     pergunta: "Qual hormônio reduz a glicemia?",
     resposta: "Insulina."
 },
 
 {
-    id: 66,
+    id: 71,
     materia: "Fisiologia",
     pergunta: "Qual hormônio aumenta a glicemia?",
     resposta: "Glucagon."
 },
 
 {
-    id: 67,
+    id: 72,
     materia: "Fisiologia",
     pergunta: "Qual órgão produz a insulina?",
     resposta: "Pâncreas."
 },
 
 {
-    id: 68,
+    id: 73,
     materia: "Fisiologia",
     pergunta: "Qual sistema controla funções involuntárias do corpo?",
     resposta: "Sistema nervoso autônomo."
 },
 
 {
-    id: 69,
+    id: 74,
     materia: "Fisiologia",
     pergunta: "Qual célula sanguínea transporta oxigênio?",
     resposta: "Hemácia."
 },
 
 {
-    id: 70,
+    id: 75,
     materia: "Fisiologia",
     pergunta: "Qual é a principal função da saliva?",
     resposta: "Lubrificar e proteger a cavidade oral."
 },
 
 {
-    id: 71,
+    id: 76,
     materia: "Fisiologia",
     pergunta: "Qual sistema regula a salivação?",
     resposta: "Sistema nervoso autônomo."
 },
 
 {
-    id: 72,
+    id: 77,
     materia: "Fisiologia",
     pergunta: "Onde ocorre a maior absorção de nutrientes?",
     resposta: "No intestino delgado."
 },
 
 {
-    id: 73,
+    id: 78,
     materia: "Fisiologia",
     pergunta: "Qual é a frequência cardíaca normal em repouso para um adulto?",
     resposta: "Entre 60 e 100 batimentos por minuto."
 },
 
 {
-    id: 74,
+    id: 79,
     materia: "Fisiologia",
     pergunta: "Qual é a unidade funcional do rim?",
     resposta: "Néfron."
 },
 
 {
-    id: 75,
+    id: 80,
     materia: "Fisiologia",
     pergunta: "Qual é a principal função dos pulmões?",
     resposta: "Realizar trocas gasosas."
@@ -550,70 +585,70 @@ const flashcards = [
     // =====================
 
 {
-    id: 76,
+    id: 81,
     materia: "Bioquímica",
     pergunta: "O que significa ATP?",
     resposta: "Adenosina Trifosfato."
 },
 
 {
-    id: 77,
+    id: 82,
     materia: "Bioquímica",
     pergunta: "Qual é a principal moeda energética da célula?",
     resposta: "ATP."
 },
 
 {
-    id: 78,
+    id: 83,
     materia: "Bioquímica",
     pergunta: "O que é glicólise?",
     resposta: "Processo de degradação da glicose para obtenção de energia."
 },
 
 {
-    id: 79,
+    id: 84,
     materia: "Bioquímica",
     pergunta: "Qual é a unidade básica das proteínas?",
     resposta: "Aminoácidos."
 },
 
 {
-    id: 80,
+    id: 85,
     materia: "Bioquímica",
     pergunta: "Qual molécula armazena a informação genética?",
     resposta: "DNA."
 },
 
 {
-    id: 81,
+    id: 86,
     materia: "Bioquímica",
     pergunta: "Qual é o pH considerado neutro?",
     resposta: "7."
 },
 
 {
-    id: 82,
+    id: 87,
     materia: "Bioquímica",
     pergunta: "O que são enzimas?",
     resposta: "Catalisadores biológicos."
 },
 
 {
-    id: 83,
+    id: 88,
     materia: "Bioquímica",
     pergunta: "Qual vitamina auxilia na absorção de cálcio?",
     resposta: "Vitamina D."
 },
 
 {
-    id: 84,
+    id: 89,
     materia: "Bioquímica",
     pergunta: "Qual enzima está presente na saliva?",
     resposta: "Amilase salivar."
 },
 
 {
-    id: 85,
+    id: 90,
     materia: "Bioquímica",
     pergunta: "Quais minerais são essenciais para a mineralização dental?",
     resposta: "Cálcio e fósforo."
@@ -624,70 +659,70 @@ const flashcards = [
     // =====================
 
 {
-    id: 86,
+    id: 91,
     materia: "Saúde Coletiva",
     pergunta: "O que significa SUS?",
     resposta: "Sistema Único de Saúde."
 },
 
 {
-    id: 87,
+    id: 92,
     materia: "Saúde Coletiva",
     pergunta: "Quais são os princípios doutrinários do SUS?",
     resposta: "Universalidade, Equidade e Integralidade."
 },
 
 {
-    id: 88,
+    id: 93,
     materia: "Saúde Coletiva",
     pergunta: "O que é promoção da saúde?",
     resposta: "Ações destinadas à melhoria da qualidade de vida da população."
 },
 
 {
-    id: 89,
+    id: 94,
     materia: "Saúde Coletiva",
     pergunta: "O que é prevenção primária?",
     resposta: "Ações voltadas para evitar o surgimento de doenças."
 },
 
 {
-    id: 90,
+    id: 95,
     materia: "Saúde Coletiva",
     pergunta: "O que é prevenção secundária?",
     resposta: "Diagnóstico e tratamento precoce das doenças."
 },
 
 {
-    id: 91,
+    id: 96,
     materia: "Saúde Coletiva",
     pergunta: "O que é prevenção terciária?",
     resposta: "Redução das sequelas e complicações das doenças."
 },
 
 {
-    id: 92,
+    id: 97,
     materia: "Saúde Coletiva",
     pergunta: "O que mede o índice CPO-D?",
     resposta: "A experiência de cárie na dentição permanente."
 },
 
 {
-    id: 93,
+    id: 98,
     materia: "Saúde Coletiva",
     pergunta: "Qual é o objetivo da fluoretação da água?",
     resposta: "Reduzir a incidência de cárie dentária."
 },
 
 {
-    id: 94,
+    id: 99,
     materia: "Saúde Coletiva",
     pergunta: "O que significa equidade no SUS?",
     resposta: "Oferecer mais recursos para quem possui maiores necessidades."
 },
 
 {
-    id: 95,
+    id: 100,
     materia: "Saúde Coletiva",
     pergunta: "O que é Atenção Primária à Saúde?",
     resposta: "Primeiro nível de contato da população com o sistema de saúde."
