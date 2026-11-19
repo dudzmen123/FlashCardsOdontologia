@@ -506,3 +506,41 @@ if(btnTopo){
 }
 
 renderCards();
+
+function updateBackground(section){
+
+    console.log("Tema:", section);
+
+    if(themeColors[section]){
+
+        document.body.style.background =
+        themeColors[section];
+
+        document.querySelector(".hero").style.background =
+        themeColors[section];
+
+    }
+
+}
+
+document
+.querySelectorAll(".menu-fixo a")
+.forEach(link => {
+
+    link.addEventListener(
+        "click",
+        () => {
+
+            const section =
+            link
+            .getAttribute("href")
+            .replace("#","");
+
+            updateBackground(section);
+
+        }
+    );
+
+});
+
+updateBackground("anatomia");
